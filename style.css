@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+ body{
+  background-color: antiquewhite;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  font-family:'Ubuntu', sans-serif;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 55px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li{
+  padding: 0 18px;
+}
+
+.brand img{
+  height: 50px;
+  padding: 0 8px;
+}
+
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.container{
+height: 53vh ;
+background-color: black;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+display: flex;
+width: 42%;
+margin: 23px auto;
+border-radius: 12px;
+padding: 25px;
+background-image: url(music-musical-notes-abstract-wallpaper-preview.jpg);
+}
+
+.bottom{
+  position: sticky;
+  background-color: black;
+  color: white;
+  height: 266px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#myprogressbar{
+  width: 80vw;
+}
+
+.icons{
+  font-size: 40px;
+  padding-top: 20px;
+  position: sticky;
+}
+
+.icons i{
+  cursor: pointer;
+}
+
+.songitem img{
+  height: 24px;
+}
