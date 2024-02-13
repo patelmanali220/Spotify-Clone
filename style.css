@@ -85,7 +85,7 @@ background-image: url(music-musical-notes-abstract-wallpaper-preview.jpg);
 }
 
 .songitem{
-  height: 50px;
+  height: 57px;
   display: flex;
   background-color: white;
  
@@ -103,12 +103,13 @@ background-image: url(music-musical-notes-abstract-wallpaper-preview.jpg);
 }
 
 .timestamp{
-  margin: 0 23px;
-}
-
-.timestamp i{
+  margin: 12px 3px;
   cursor: pointer;
 }
+
+/* .timestamp i{
+  cursor: pointer;
+} */
 
 .songinfo{
 position: absolute;

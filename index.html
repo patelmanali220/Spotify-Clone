@@ -25,22 +25,26 @@
         <div class="songitem">
           <img src="pexels-george-desipris-899238 (1).jpg" alt="s1"><span>Tu Maan Meri Jaan
           </span>
-          <span class="songlistplay"><span class="timestamp">03:14<i class="fa-regular fa-circle-play"></i></span></span>
+          <span class="songlistplay"><div class="timestamp"><!--03:14<i class="fa-regular fa-circle-play"></i> --><audio controls id="song"> <source src="t.mp3" type="audio/mpeg">
+          </audio></div></span>
         </div>
         <div class="songitem">
           <img src="pexels-sanaan-mazhar-3052361.jpg" alt="s1"><span>Saadi Gali Aaja
           </span>
-          <span class="songlistplay"><span class="timestamp">04:13<i class="fa-regular fa-circle-play"></i></span></span>
+          <span class="songlistplay"><div class="timestamp"><!--03:14<i class="fa-regular fa-circle-play"></i> --><audio controls> <source src="s.mp3" type="audio/mpeg">
+          </audio></div></span>
         </div>
         <div class="songitem">
           <img src="images.jpg" alt="s1"><span>Pikachu-Tone
           </span>
-          <span class="songlistplay"><span class="timestamp">00:01<i class="fa-regular fa-circle-play"></i></span></span>
+          <span class="songlistplay"><div class="timestamp"><!--03:14<i class="fa-regular fa-circle-play"></i> --><audio controls> <source src="Pikachu-WhatsappTone!Notification.mp3" type="audio/mpeg">
+          </audio></div></span>
         </div>
         <div class="songitem">
           <img src="60wr.gif" alt="s1"><span>Shark Tank
           </span>
-          <span class="songlistplay"><span class="timestamp">00:30<i class="fa-regular fa-circle-play"></i></span></span>
+          <span class="songlistplay"><div class="timestamp"><!--03:14<i class="fa-regular fa-circle-play"></i> --><audio controls> <source src="shark_tank.mp3" type="audio/mpeg">
+          </audio></div></span>
         </div>
     </div>
   </div>
@@ -52,9 +56,10 @@
   <div class="icons">
     <!-- fontawesome icons -->
    
-    <i class="fa-solid fa-backward-step"></i>
-    <i class="fa-regular fa-circle-play" id="masterPlay"></i>
-    <i class="fa-solid fa-forward-step"></i>
+    <div><i class="fa-solid fa-backward-step"></i></div>
+   <div onclick="playPause()"><i class="fa-regular fa-circle-play" id="masterPlay"></i></div> 
+   <div><i class="fa-solid fa-forward-step"></i></div>
+    
 
   </div>
   <div class="songinfo">
